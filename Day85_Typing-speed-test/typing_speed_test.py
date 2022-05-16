@@ -100,7 +100,7 @@ title_label.grid(column=0, row=0, pady=15)
 instructions_label = tk.Label(window, font=("Montserrat", 12, "bold"), text=INSTRUCTIONS, bg="#2aa1ec", fg=BEIGE)
 instructions_label.grid(column=0, row=1)
 
-sample_text_label = tk.Label(window, font=("Courier", 12), text=random_text[0], wraplength=650, bg="white", justify="left")
+sample_text_label = tk.Label(window, font=("Courier", 12), text=random_text, wraplength=650, bg="white", justify="left")
 sample_text_label.grid(column=0, row=3, padx=15, pady=15)
 
 hit_return_label = tk.Label(window, font=("Montserrat", 12, "bold"), text="Once you're done, hit 'RETURN'", bg="#ffedda", fg="#2aa1ec")
