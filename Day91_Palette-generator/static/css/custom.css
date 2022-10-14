@@ -1,0 +1,71 @@
+ html {
+	 line-height: 1.5;
+	 font-weight: 300;
+}
+
+#bootstrap-overrides h1 {
+    font-size: 3rem;
+	font-weight: 800;
+	color: #ff6666;
+	font-family: "Fira Sans", sans-serif;
+}
+
+#bootstrap-overrides h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+	color: #8f8f8f;
+	font-family: "Fira Sans", sans-serif;
+}
+
+.center {
+  margin: auto;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.spacer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btn-spacer {
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: #e9ecef;
+    color: black;
+    border: none;
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    background-color: #d74343;
+}
+
+.color-box {
+    font-family: "Fira Sans", sans serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    letter-spacing: 0.08rem;
+    color: #ffffff;
+    padding: 60px;
+}
+
+.color-1 {
+    background-color: #2bdc72
+}
+
+.color-2 {
+    background-color: #ffb955
+}
+
+.color-3 {
+    background-color: #11c7e8
+}
+
+.color-4 {
+    background-color: #ff6666
+}

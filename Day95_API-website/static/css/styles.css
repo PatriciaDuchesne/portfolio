@@ -1,0 +1,38 @@
+*, *:before, *:after {
+	 box-sizing: border-box;
+}
+
+ html {
+	 font-size: 18px;
+	 line-height: 1.5;
+	 font-weight: 300;
+	 color: #ffffff;
+	 font-family: "Gentium Plus", serif;
+}
+
+ body {
+	 margin: 0;
+	 padding: 0;
+	 height: 100vh;
+	 background-color: #2d2a2e;
+	 background-attachment: fixed;
+}
+
+h2 {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-txt {
+    text-align: center;
+}
+
+.icon {
+    margin-top: 50px;
+}

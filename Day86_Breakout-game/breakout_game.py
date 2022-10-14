@@ -19,8 +19,7 @@ bricks = []
 # Spawn bricks
 x_position = -345
 y_position = 275
-column = 1
-row = 1
+
 for row in range(0, 6):
     for col in range(0, 8):
         bricks.append(Brick(f"brick{row + 1}x{col + 1}", x_position, y_position))
@@ -59,6 +58,7 @@ while game_is_on:
         turtle.write("Game over.", move=False, font=('Courier', 36, 'bold'), align='center')
         game_is_on = False
 
+    # Detect collision with brick
     for brick in bricks:
         if ball.distance(brick) < 40:
             brick.hideturtle()
@@ -71,3 +71,5 @@ while game_is_on:
         turtle.color('white')
         turtle.write("You win.", move=False, font=('Courier', 36, 'bold'), align='center')
         game_is_on = False
+
+screen.mainloop()
